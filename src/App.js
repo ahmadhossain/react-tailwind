@@ -1,5 +1,10 @@
+import CounterPage from "./pages/CounterPage";
 function App() {
-  return <div className="text-3xl font-bold underline">hello</div>;
+  return (
+    <div>
+      <CounterPage />
+    </div>
+  );
 }
 
 export default App;
